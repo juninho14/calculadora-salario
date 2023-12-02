@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora-salario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <img src="moeda.png" alt="moeda" width="200px">
+    <form>
+        <p>
+            <label>salario por hora </label>
+            <input id="salario_hora">
+        </p>
+        <p>
+            <label>Quantiedade de horas trabalhadas</label>
+            <input type="number" id="quantidade_horas" onchange="calcular()">
+        </p>
+    </form>
+    <h3 id="resultado"> R$ 100.00 </h3>
+</center>
+    <script src="app.js"></script>
+
+</body>
+</html>
